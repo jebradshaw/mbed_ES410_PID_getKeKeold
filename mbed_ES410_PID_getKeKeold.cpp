@@ -96,6 +96,7 @@ int main(){
         if(c == 'y' || c == 'Y')            
             done = 1;
     }            
+    pc.printf("\r\n");
                      
     cont_update.attach(&update_controller, TSAMPLE); //start the ticker and controller
     
